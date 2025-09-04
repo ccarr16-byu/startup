@@ -2,6 +2,10 @@
 
 [My startup - Simon](https://simon.cs260.click)
 
+## New Notes
+
+[Last Updated 9/4/25]
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
