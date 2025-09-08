@@ -1,9 +1,8 @@
-# Your startup name here
+# QuoteBoard
 
 [My Notes](notes.md)
 
-> [!NOTE]
-> Updated twice 9/4/25
+> Updated 9/8/25 with specs
 
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -21,15 +20,15 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+QuoteBoard is a place to collaboratively store memories through the use of "boards", where users and their friends can dynamically add quotes, pictures, and doodles to create a personalized digital scrapbook. Registered users can also contribute to public community boards, where they can create with people who share their interests.
 
 ### Design
 
@@ -46,20 +45,20 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Register/login; show different views when logged in.
+- Board creation. Support the following, in order of priority: 1. text 2. images 3. drawings 4. locations
+- Social features; friends/requests, sharing boards, dynamic collaboration using WebSocket.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Create separate views so users can choose to browse their own boards, their friends' boards, or community boards.
+- **CSS** - Design an unobtrusive and focused UI so users can focus on creating.
+- **React** - Utilize specialized components that will allow users to make doodles directly in the browser.
+- **Service** - Provide geotagging functionality through the Maps API so users can add locations to boards.
+- **DB/Login** - Display in a view-only mode for unregistered users, and provide functionality for users to choose whether to make a board private, public, or shared with friends only.
+- **WebSocket** - Update boards dynamically so multiple users can work together at the same time to foster collaboration.
 
 ## 🚀 AWS deliverable
 
