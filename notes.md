@@ -14,8 +14,8 @@
 
 ## AWS
 
-My IP address is: 44.196.85.15
-ssh command:
+My IP address is: 44.196.85.15 <br/>
+ssh command: <br/>
 `ssh -i ./.ssh/260-web-server.pem ubuntu@44.196.85.15`
 
 ## Caddy
