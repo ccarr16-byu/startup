@@ -4,7 +4,7 @@
 
 ## New Notes
 
-[Last Updated 9/4/25]
+[Last Updated 9/15/25]
 
 ## Helpful links
 
