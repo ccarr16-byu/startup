@@ -62,15 +62,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I created views for every part of my project.
+- [x] **Proper HTML element usage** - I organized my page with headers, footers, navs, divs, and tables.
+- [x] **Links** - All pages are properly linked.
+- [x] **Text** - I included placeholder "about" text on my homepage.
+- [x] **3rd party API placeholder** - I have a line on my login view that indicates I plan to use a 3rd party to process user accounts.
+- [x] **Images** - I included profile images on the profile view and the friend request table.
+- [x] **Login placeholder** - I created a login view with placeholder fields.
+- [x] **DB data placeholder** - My "User Boards", "Friends' Boards", and "Community Boards" views will all query a DB to get their content. I will also likely store friend list & friend request information in a DB.
+- [x] **WebSocket placeholder** - My "Edit Board" view indicates that it will use WebSocket to display boards live. My friend request table may also use WebSocket so it can update live, but that is lower-priority.
 
 ## 🚀 CSS deliverable
 
