@@ -1,38 +1,71 @@
 <html lang = "en">
     <head>
-        <Title>QuoteBoard</Title>
+        <meta charset="UTF-8" />
+        <title>QuoteBoard</title>
         <link rel="stylesheet" href="main.css" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+            crossorigin="anonymous"
+        />
+        <link rel="icon" href="favicon.ico" />
     </head>
     <body>
-        <header>
-            <span><h1>QuoteBoard</h1></span>
-            <span><h2>by Chance Carr</h2></span>
-            <h4><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://github.com/ccarr16-byu/startup">My Startup Github Repo</a></h4>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="profile.html">Profile</a>
-            <hr>
+        <header class="container-fluid">
+            <nav class="navbar fixed-top">
+                <a class="navbar-brand" href="#"><b>QuoteBoard</b></a>
+                <menu class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="userBoards.html">My Boards</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="friendBoards.html">Friends' Boards</a>                 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="communityBoards.html">Community</a>                 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="editBoard.html">New Board</a>                 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login/Register</a>                
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                </menu>
+            </nav>
         </header>
-        <nav>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="index.html">Home</a> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="userBoards.html">My Boards</a> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="friendBoards.html">Friends' Boards</a> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="communityBoards.html">Community</a> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="editBoard.html">New Board</a> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="login.html">Login/Register</a>
-        </nav>
-        <hr>
-        <main>
-            <h3><em>Welcome, User!</em></h3>
+        
+        <main class="container-fluid">
+            <h1><em>Welcome, User!</em></h1>
             <div>
                 <h4>What is QuoteBoard?</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non lobortis lectus. Quisque luctus elementum augue at varius. Morbi pellentesque euismod orci, sit amet pretium magna lacinia vitae. Donec vel sagittis enim, id euismod nisl. In quis malesuada urna. In aliquet dolor sit amet dolor ornare tempor. Fusce placerat dapibus ligula, eu suscipit tellus iaculis vel. Sed vitae erat a diam sodales consectetur. Sed porta augue congue diam molestie convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia vulputate ultricies. Fusce posuere leo id nisl volutpat, ac laoreet sem dapibus. Aenean nec feugiat lorem, vitae porttitor urna. Sed non eleifend nisl. Maecenas ut erat sit amet magna luctus eleifend. Cras odio leo, malesuada at ipsum eget, fringilla varius sem. Vestibulum lacinia ipsum ac velit efficitur, sed tempor ipsum sodales. Nunc interdum ut urna in elementum. Maecenas convallis semper ligula quis commodo. Nullam vehicula eu magna vel gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
+                <h4>How does it work?</h4>
                 <p>
-                    Aliquam erat volutpat. Aliquam et eros vitae enim vehicula malesuada. In vitae malesuada eros. Praesent et elementum nibh. Cras ac diam interdum, maximus neque non, bibendum neque. Aenean posuere nunc at ex vestibulum, a ultrices nisi commodo. Donec dictum nec lectus id commodo. Curabitur scelerisque, est et tempus gravida, orci diam tempus mi, ac blandit sem urna eu urna. In lacinia tellus sit amet erat euismod lobortis. Morbi lacinia purus feugiat, pretium erat non, dignissim ex. Sed consequat orci vitae augue vulputate, quis facilisis magna accumsan.
+                    Aenean rutrum fermentum dui condimentum consequat. Cras convallis, sapien at blandit lobortis, ex nulla feugiat quam, eu convallis nisi libero ut libero. Etiam sed rutrum felis, in tincidunt sapien. Aenean eu velit rhoncus, porttitor augue ut, finibus magna. Morbi magna mi, bibendum sit amet felis vitae, ultricies consequat velit. Duis ornare scelerisque enim, et porta metus laoreet a. Maecenas a dolor vehicula quam pretium ornare. Aliquam vitae nulla nibh. Nullam blandit nunc nec metus euismod, vulputate consequat lectus dignissim.
+                </p>
+                <h4>How do I get started?</h4>
+                <p>
+                    Praesent tincidunt tellus et aliquam lobortis. Curabitur a hendrerit ipsum. Vivamus porttitor augue sed justo ultricies dapibus. Praesent ante tellus, vestibulum id urna sit amet, tincidunt tincidunt libero. Morbi varius, lacus scelerisque euismod dignissim, nunc mi imperdiet lectus, non tincidunt odio nisl sit amet ligula. Sed ex elit, vulputate eget placerat commodo, lacinia a turpis. Etiam sodales urna turpis, vel maximus eros pretium quis. Praesent aliquam molestie neque non gravida. Aliquam sed mollis nisi, quis posuere nibh.
                 </p>
             </div>
             <hr>
         </main>
+
         <footer>
-            <p><b>By Chance Carr</b></p>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://github.com/ccarr16-byu/startup">My Startup Github Repo</a>
+            <div class="container-fluid">
+                <span class="text-reset">By Chance Carr</span>
+                <a class="text-reset" href="https://github.com/ccarr16-byu/startup">My Startup Github Repo</a>
+            </div>
         </footer>
     </body>
 </html>
