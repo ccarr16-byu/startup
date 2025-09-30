@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-> Updated 9/8/25 with specs
+> Updated 9/30/25 with CSS deliverable information
 
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -76,12 +76,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - I refactored my HTML to give my site a clearer structure. My header and footer are now visually cohesive.
+- [x] **Navigation elements** - I refactored, condensed, and styled my navbar using bootstrap.
+- [x] **Responsive to window resizing** - I used flex and grid to make my site responsive to different window sizes.
+- [x] **Application elements** - I refactored my login and friend requests/list UI to get rid of extraneous views. These elements will be handled using react.
+- [x] **Application text content** - My text content did not change much. I added some more text to my main view to make it fit better on the page.
+- [x] **Application images** - I am still using the same images on my profile view. I updated my tables and buttons using bootstrap to look more visually cohesive.
 
 ## 🚀 React part 1: Routing deliverable
 
