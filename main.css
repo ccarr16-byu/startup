@@ -36,6 +36,17 @@ menu .nav-item {
     padding: 0 0.3em;
 }
 
+.btn-primary {
+    background-color: #4B4 !important;
+    border-color: #4B4 !important;
+}
+
+.btn-secondary {
+    background-color: #EEE !important;
+    color: #4B4 !important;
+    border-color: #4B4 !important;
+}
+
 footer {
     flex: 0 30px;
     background-color: #4B4;

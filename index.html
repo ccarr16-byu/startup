@@ -12,6 +12,7 @@
         />
         <link rel="icon" href="favicon.ico" />
     </head>
+
     <body>
         <header class="container-fluid">
             <nav class="navbar fixed-top">
@@ -33,9 +34,6 @@
                         <a class="nav-link" href="editBoard.html">Create</a>                 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>                
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="profile.html">Profile</a>
                     </li>
                 </menu>
@@ -43,7 +41,22 @@
         </header>
         
         <main class="container-fluid">
-            <h1><em>Welcome, User!</em></h1>
+            <div class="text-center">
+                <h1>Welcome!</h1>
+                <form method="get" action="userBoards.html">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">@</span>
+                    <input class="form-control" type="text" placeholder="your@email.com" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">🔒</span>
+                    <input class="form-control" type="password" placeholder="password" />
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-secondary">Create</button>
+                </form>
+            </div>
+
             <div>
                 <h4>What is QuoteBoard?</h4>
                 <p>
