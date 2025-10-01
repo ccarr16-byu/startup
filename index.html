@@ -1,5 +1,6 @@
-<html lang = "en">
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
         <meta charset="UTF-8" />
         <title>QuoteBoard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,73 +13,10 @@
         <link rel="stylesheet" href="main.css" />
         <link rel="icon" href="favicon.ico" />
     </head>
-
-    <body>
-        <header class="container-fluid">
-            <nav class="navbar fixed-top">
-                <a class="navbar-brand" href="#"><b>QuoteBoard</b></a>
-                <menu class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="userBoards.html">My Boards</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="friendBoards.html">Friends</a>                 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="communityBoards.html">Community</a>                 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="editBoard.html">Create</a>                 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.html">Profile</a>
-                    </li>
-                </menu>
-            </nav>
-        </header>
-        
-        <main class="container-fluid">
-            <div class="text-center">
-                <h1>Welcome!</h1>
-                <form method="get" action="userBoards.html">
-                <div class="input-group mb-3">
-                    <span class="input-group-text">@</span>
-                    <input class="form-control" type="text" placeholder="your@email.com" />
-                </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text">🔒</span>
-                    <input class="form-control" type="password" placeholder="password" />
-                </div>
-                <button type="submit" class="btn btn-primary">Login</button>
-                <button type="submit" class="btn btn-secondary">Create</button>
-                </form>
-            </div>
-
-            <div>
-                <h4>What is QuoteBoard?</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia vulputate ultricies. Fusce posuere leo id nisl volutpat, ac laoreet sem dapibus. Aenean nec feugiat lorem, vitae porttitor urna. Sed non eleifend nisl. Maecenas ut erat sit amet magna luctus eleifend. Cras odio leo, malesuada at ipsum eget, fringilla varius sem. Vestibulum lacinia ipsum ac velit efficitur, sed tempor ipsum sodales. Nunc interdum ut urna in elementum. Maecenas convallis semper ligula quis commodo. Nullam vehicula eu magna vel gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <h4>How does it work?</h4>
-                <p>
-                    Aenean rutrum fermentum dui condimentum consequat. Cras convallis, sapien at blandit lobortis, ex nulla feugiat quam, eu convallis nisi libero ut libero. Etiam sed rutrum felis, in tincidunt sapien. Aenean eu velit rhoncus, porttitor augue ut, finibus magna. Morbi magna mi, bibendum sit amet felis vitae, ultricies consequat velit. Duis ornare scelerisque enim, et porta metus laoreet a. Maecenas a dolor vehicula quam pretium ornare. Aliquam vitae nulla nibh. Nullam blandit nunc nec metus euismod, vulputate consequat lectus dignissim.
-                </p>
-                <h4>How do I get started?</h4>
-                <p>
-                    Praesent tincidunt tellus et aliquam lobortis. Curabitur a hendrerit ipsum. Vivamus porttitor augue sed justo ultricies dapibus. Praesent ante tellus, vestibulum id urna sit amet, tincidunt tincidunt libero. Morbi varius, lacus scelerisque euismod dignissim, nunc mi imperdiet lectus, non tincidunt odio nisl sit amet ligula. Sed ex elit, vulputate eget placerat commodo, lacinia a turpis. Etiam sodales urna turpis, vel maximus eros pretium quis. Praesent aliquam molestie neque non gravida. Aliquam sed mollis nisi, quis posuere nibh.
-                </p>
-            </div>
-            <hr>
-        </main>
-
-        <footer class="fixed-bottom">
-            <div class="container-fluid">
-                <span class="text-reset">By Chance Carr</span>
-                <a class="text-reset" href="https://github.com/ccarr16-byu/startup">My Startup Github Repo</a>
-            </div>
-        </footer>
-    </body>
+    
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.jsx"></script>
+  </body>
 </html>
