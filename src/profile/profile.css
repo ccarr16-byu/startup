@@ -1,11 +1,11 @@
-main {
+#profile-main {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr 3fr;
     gap: 20px;
 }
 
-main div {
+#profile-main div {
     border: 3px solid #4B4;
     width: 100%;
     height: 100%;
@@ -19,7 +19,15 @@ main div {
     grid-template-columns: 1fr 1fr;
 }
 
-.btn-secondary {
+#friend_requests {
+    display: grid;
+}
+
+#friend_list {
+    display: grid;
+}
+
+#profile-main .btn-secondary {
     color: #B44 !important;
     border-color: #B44 !important;
 }
