@@ -87,9 +87,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [x] **Bundled using Vite** - I had no issues with my deployment or installing Vite & React.
+- [x] **Components** - I successfully ported all of my components into React. I simplified a few of my views to reference the same component, which I plan on making serve reactive content.
+- [x] **Router** - I had a few hiccups with my router. Since app.jsx imports all of my components at once, all of their stylesheets get imported at once as well, leading to conflicts in my styling. I added tag IDs to my affected html components, and selecting those components by ID fixed the problem.
 
 ## 🚀 React part 2: Reactivity deliverable
 
