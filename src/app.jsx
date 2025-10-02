@@ -19,13 +19,13 @@ export default function App() {
                                 <NavLink className="nav-link active" to="">Home</NavLink> 
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="listBoards">My Boards</NavLink> 
+                                <NavLink className="nav-link" to="myBoards">My Boards</NavLink> 
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="listBoards">Friends</NavLink>                 
+                                <NavLink className="nav-link" to="friends">Friends</NavLink>                 
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="listBoards">Community</NavLink>                 
+                                <NavLink className="nav-link" to="community">Community</NavLink>                 
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="board">Create</NavLink>                 
@@ -40,7 +40,9 @@ export default function App() {
                 <Routes>
                     <Route path='/' element={<Login />} exact />
                     <Route path='/board' element={<Board />} />
-                    <Route path='/listBoards' element={<ListBoards />} />
+                    <Route path='/myBoards' element={<ListBoards />} />
+                    <Route path='/friends' element={<ListBoards />} />
+                    <Route path='/community' element={<ListBoards />} />
                     <Route path='/profile' element={<Profile />} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>

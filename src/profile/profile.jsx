@@ -3,6 +3,10 @@ import Table from 'react-bootstrap/Table';
 import './profile.css';
 
 export function Profile() {
+  React.useEffect(() => {
+    document.title = 'Profile'; 
+  }, []);
+
   return (
     <main className="container-fluid" id="profile-main">
             <div className="text-center">

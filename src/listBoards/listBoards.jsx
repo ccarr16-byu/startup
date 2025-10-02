@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './listBoards.css';
 
 export function ListBoards() {
+  React.useEffect(() => {
+    document.title = 'Boards'; 
+  }, []);
+
   return (
     <main className="container-fluid text-center" id="boardList">
         <div>

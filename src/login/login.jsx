@@ -2,6 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function Login() {
+  React.useEffect(() => {
+    document.title = 'QuoteBoard'; 
+  }, []);
+
   return (
     <main className="container-fluid">
             <div className="text-center">
