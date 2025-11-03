@@ -10,7 +10,7 @@ export function Login() {
     <main className="container-fluid">
             <div className="text-center">
                 <h1>Welcome!</h1>
-                <form method="get" action="userBoards.html">
+                <form method="get" action="listBoards.html">
                 <div className="input-group mb-3">
                     <span className="input-group-text">@</span>
                     <input className="form-control" type="text" placeholder="your@email.com" />
