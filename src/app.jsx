@@ -6,8 +6,13 @@ import { Login } from './login/login';
 import { Board } from './board/board';
 import { ListBoards } from './listBoards/listBoards';
 import { Profile } from './profile/profile';
+import { AuthState } from './login/authState';
 
 export default function App() {
+    const [userName, setUserName] = React.useState(localStorage.getItem('userName') || '');
+    const currentAuthState = userName ? AuthState.Authenticated : AuthState.Unauthenticated;
+    const [authState, setAuthState] = React.useState(currentAuthState);
+
     return (
         <BrowserRouter>
             <div className="body">
@@ -18,28 +23,49 @@ export default function App() {
                             <li className="nav-item">
                                 <NavLink className="nav-link active" to="">Home</NavLink> 
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="myBoards">My Boards</NavLink> 
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="friends">Friends</NavLink>                 
-                            </li>
+                            {authState === AuthState.Authenticated && (
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="myBoards">My Boards</NavLink> 
+                                </li>
+                            )}
+                            {authState === AuthState.Authenticated && (
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="friends">Friends</NavLink>                 
+                                </li>
+                            )}
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="community">Community</NavLink>                 
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="board">Create</NavLink>                 
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="profile">Profile</NavLink>
-                            </li>
+                            {authState === AuthState.Authenticated && (
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="board">Create</NavLink>                 
+                                </li>
+                            )}
+                            {authState === AuthState.Authenticated && (
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="profile">Profile</NavLink>
+                                </li>
+                            )}
                         </menu>
                     </nav>
                 </header>
 
                 <Routes>
-                    <Route path='/' element={<Login />} exact />
-                    <Route path='/board' element={<Board />} />
+                    <Route 
+                        path='/' 
+                        element={
+                            <Login 
+                                userName={userName}
+                                authState={authState}
+                                onAuthChange={(userName, authState) => {
+                                    setAuthState(authState);
+                                    setUserName(userName);
+                                }}
+                            />
+                        } 
+                        exact 
+                    />
+                    <Route path='/board' element={<Board userName={userName}/>} />
                     <Route path='/myBoards' element={<ListBoards />} />
                     <Route path='/friends' element={<ListBoards />} />
                     <Route path='/community' element={<ListBoards />} />
