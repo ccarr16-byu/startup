@@ -1,6 +1,7 @@
 import React from "react";
 
 import Button from "react-bootstrap/Button";
+import { MessageDialog } from "./messageDialog";
 
 export function Unauthenticated(props) {
     const [userName, setUserName] = React.useState(props.userName);
@@ -36,7 +37,7 @@ export function Unauthenticated(props) {
                 </Button>
             </div>
 
-            <MessageDialog message={displayError} onHide={() => setDisplayError(null)} />
+            <MessageDialog message={displayError} onHIde={() => setDisplayError(null)} />
 
             <div>
                 <h4>What is QuoteBoard?</h4>
