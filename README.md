@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-> Updated 10/2/25 with React deliverable information
+> Updated 11/13/25 with React 2 deliverable information
 
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -95,8 +95,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **All functionality implemented or mocked out** - The most fundamental part of my project, quoteboard creation, is implemented. It also uses webSocket and database mocks. I also successfully mocked out the functionality of my friend list/request system on my profile view.
+- [x] **Hooks** - I use React useState and useEffect extensively in my quoteboard creation implementation.
 
 ## 🚀 Service deliverable
 
